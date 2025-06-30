@@ -2,11 +2,42 @@
 
 This template provides a minimal setup to get React and R3F working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<br>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to use
 
-## Expanding the ESLint configuration
+First you need to install degit:
+<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+npm install degit
+```
+
+<br>
+
+Then clone the template using
+
+```
+degit ImYosrii/r3f-vite-template <project name>
+```
+
+After than you can install the dependencies and start working immediately.
+
+```
+npm install
+npm run dev
+```
+
+<br>
+
+# Included dependencies
+
+- Three
+- @react-three/fiber
+- @react-three/drei
+- leva
+- r3f-perf
+- react
+- react-dom
+- vite-plugin-glsl
